@@ -1,0 +1,118 @@
+.login-bg-container {
+  background-image: url('https://res.cloudinary.com/kanya-raashi/image/upload/v1728991478/LoginImageLargeScreens_pj1cmp.png');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 320px) and (max-width: 745px) {
+  .login-bg-container {
+    background-image: none;
+    background-color: #131313;
+  }
+}
+
+.movies-heading {
+  position: fixed;
+  top: 25px;
+  left: 68px;
+}
+@media screen and (min-width: 320px) and (max-width: 745px) {
+  .movies-heading {
+    top: 20px;
+    left: 25px;
+    height: 30px;
+  }
+}
+
+.login-card-container {
+  background-color: #0c0b10;
+  width: 420px;
+  height: 440px;
+  opacity: 80%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+@media screen and (min-width: 320px) and (max-width: 745px) {
+  .login-card-container {
+    width: 100%;
+    background-color: transparent;
+  }
+}
+
+.login-card-heading {
+  color: #ffffff;
+  font-family: HK Grotesk;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: center;
+}
+
+.input-field-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.input-label {
+  font-family: 'HK Grotesk';
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.input-field {
+  background-color: #333333;
+  width: 360px;
+  height: 40px;
+  border-width: 0px;
+  border-radius: 5px;
+  margin-top: 3px;
+  color: #ffffff;
+  outline: none;
+  padding: 2px 2px 2px 10px;
+}
+@media screen and (min-width: 320px) and (max-width: 745px) {
+  .input-field {
+    width: 100%;
+  }
+}
+
+.login-btn {
+  background-color: #e50914;
+  width: 100%;
+  height: 40px;
+  margin-top: 50px;
+  border-width: 0px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'HK Grotesk';
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  color: #f8fafc;
+}
+
+.error-message {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  align-self: flex-start;
+  text-align: left;
+  color: #dc2626;
+}

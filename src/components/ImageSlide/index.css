@@ -1,0 +1,27 @@
+/* .slide-image {
+  height: 170px;
+  width: 270px;
+}
+.react-slick-slider {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.image-slider-container {
+  display: flex;
+  flex-direction: row;
+} */
+
+.slide-image {
+  height: 170px;
+  width: 270px;
+  object-fit: cover; /* Ensure the image covers the slide area without distortion */
+}
+
+.image-slider-container {
+  width: 100%;
+}
+
+.react-slick-slider {
+  width: 100%;
+}

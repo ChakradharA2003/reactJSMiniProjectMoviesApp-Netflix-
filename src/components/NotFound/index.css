@@ -1,0 +1,57 @@
+.not-found-bg {
+  background-image: url('https://res.cloudinary.com/kanya-raashi/image/upload/v1728988456/NotFound_bg_image_zzivbt.png');
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 320px) and (max-width: 1439px) {
+  .not-found-bg {
+    background-image: url('https://res.cloudinary.com/kanya-raashi/image/upload/v1728990855/NotFoundSmallDevices_yvft32.png');
+  }
+}
+.not-found-description-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.not-found-heading {
+  color: #ffffff;
+  font-family: 'HK Grotesk';
+  font-size: 96px;
+  font-weight: 700;
+  margin-bottom: 1px;
+}
+@media screen and (min-width: 320px) and (max-width: 1439px) {
+  .not-found-heading {
+    font-size: 40px;
+  }
+}
+.not-found-description {
+  margin-top: 1px;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'HK Grotesk';
+  line-height: 1.6;
+}
+@media screen and (min-width: 320px) and (max-width: 1439px) {
+  .not-found-description {
+    font-size: 20px;
+  }
+}
+.go-to-home-btn {
+  width: 127px;
+  height: 48px;
+  border-radius: 3px;
+  border-width: 0px;
+  background-color: #ffffff;
+  font-family: 'HK Grotesk';
+  padding: 12px 24px 12px 24px;
+  cursor: pointer;
+}

@@ -1,0 +1,104 @@
+.home-bg-container {
+  background-color: #2a2a2a;
+  overflow: auto;
+  padding-bottom: 20px;
+}
+
+.home-bg-image-container {
+  background-image: url('https://res.cloudinary.com/kanya-raashi/image/upload/v1729059167/HomePageBgLarge_zgp8jl.png');
+  width: 100%;
+  height: 605px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+@media screen and (min-width: 320px) and (max-width: 890px) {
+  .home-bg-image-container {
+    background-image: url('https://res.cloudinary.com/kanya-raashi/image/upload/v1729081643/HomePageBgSmall_vnwbq2.png');
+    width: 100%;
+    height: 447px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+.bg-image-description-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 400px;
+  margin: 100px;
+}
+@media screen and (min-width: 320px) and (max-width: 890px) {
+  .bg-image-description-container {
+    width: 240px;
+    margin: 45px;
+  }
+}
+
+.bg-image-heading {
+  font-family: 'Roboto';
+  font-size: 64px;
+  font-weight: 600;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 1px;
+}
+@media screen and (min-width: 320px) and (max-width: 890px) {
+  .bg-image-heading {
+    font-size: 32px;
+  }
+}
+
+.bg-image-description {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+  color: #ffffff;
+}
+@media screen and (min-width: 320px) and (max-width: 890px) {
+  .bg-image-description {
+    font-size: 12px;
+  }
+}
+
+.bg-image-btn {
+  color: #171f46;
+  background-color: #ffffff;
+  border-width: 0px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: 'Roboto';
+  padding: 7px 10px 7px 10px;
+  font-weight: 500;
+}
+
+.home-movies-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px 100px 10px 100px;
+}
+
+.movies-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.movies-heading {
+  text-align: left;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.react-slider-container {
+  background-color: #0d0d0d;
+  width: 1300px;
+}
